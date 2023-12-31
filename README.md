@@ -1,4 +1,5 @@
 ## Inverted Index and parser
+This C++ project implements an inverted index data structure for efficient set operations in collections. It includes functionalities for creating collections, inserting sets, and performing searches based on set intersections, containment, and more. The project provides a flexible interface via a parser to execute various commands and operations on collections, making it useful for indexing and querying sets efficiently.
 
 ### Requirements
 ```bash
@@ -9,26 +10,19 @@
 
 ### Building
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/prumat4/aaf-labs-2023.git
-cd Didukh_Lopatetskiy_FI-13_14
-```
-
-2. Create a build directory and navigate to it:
+1. Create a build directory and navigate to it:
 ```bash
 
 mkdir build
 cd build
 ```
-3. Build the project using CMake:
+2. Build the project using CMake:
 
 ```bash
 cmake .. && make
 ```
 
-4. Run executables:
+3. Run executables:
 
   - To run the main program:
 
